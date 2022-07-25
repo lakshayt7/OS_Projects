@@ -3,6 +3,7 @@
 #include <pthread.h>
 #include <stdlib.h>
 
+//Scheduled for deletion
 pthread_mutex_t m = PTHREAD_MUTEX_INITIALIZER;
 pthread_cond_t readtime = PTHREAD_COND_INITIALIZER;
 pthread_cond_t writetime = PTHREAD_COND_INITIALIZER;
